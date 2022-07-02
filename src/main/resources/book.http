@@ -1,0 +1,59 @@
+
+###
+POST http://localhost:8080/admin/createBook
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MzUwOTAsImV4cCI6MTY1NDUzODY5MCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1LCJyb2xlIjoiQURNSU4ifQ.lb15FzkQ5HF_vbFeNUEcKB1eQiWAnAW6TiZ8kiWrVvA
+
+{
+  "name" : "koz",
+  "author": "pep gvardiola"
+}
+
+###
+GET http://localhost:8080/admin/list
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MzU1MDYsImV4cCI6MTY1NDUzOTEwNiwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo0LCJyb2xlIjoiVVNFUiJ9.fQAES_US0mFL4nbjNLD38q96ctbIFJpt_dFyGv8Nxkw
+
+
+###
+PUT http://localhost:8081/post/update/1
+Content-Type: application/json
+
+{
+  "title" : "dfsegdrfhtgjy",
+  "content" : "sfdgfhg"
+
+}
+
+###
+GET http://localhost:8081/post/list
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzNTM3MDQsImV4cCI6MTY1NDM1NzMwNCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.a0FcFQzt8iQY2P2RLG1ZecXhKM3I7jZirol0z7sbjLs
+
+
+
+###
+PUT http://localhost:8080/admin/update/2
+Content-Type: application/json
+
+{
+  "name" : "malibu",
+  "author" : "A.Holland"
+
+}
+###
+PUT http://localhost:8080/admin/delete/2
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/admin/listStudent
+Content-Type: application/json
+
+###
+PUT http://localhost:8080/admin/update
+Content-Type: application/json
+
+{
+  "phone" : "998947771122"
+}

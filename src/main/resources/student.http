@@ -1,0 +1,42 @@
+
+###
+POST http://localhost:8080/register/create
+Content-Type: application/json
+
+{
+  "name" : "kalbosh",
+  "surName":"kalla",
+  "phone" : "998947771177",
+  "password" : "123456"
+}
+
+###
+GET http://localhost:8081/profile/auth
+Content-Type: application/json
+
+{
+  "phone" : "998945779599",
+  "password":"23232323"
+}
+
+###
+PUT http://localhost:8081/post/update/1
+Content-Type: application/json
+
+{
+  "title" : "dfsegdrfhtgjy",
+  "content" : "sfdgfhg"
+
+}
+
+###
+GET http://localhost:8081/post/list
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzNTM3MDQsImV4cCI6MTY1NDM1NzMwNCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.a0FcFQzt8iQY2P2RLG1ZecXhKM3I7jZirol0z7sbjLs
+
+
+
+###
+PUT http://localhost:8081/post/delete/9
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzNjM0NzksImV4cCI6MTY1NDM2NzA3OSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.gPzgA-7cHzNIrZZTUXf19y5PeK54ci9UiXCfoHF5QfQ

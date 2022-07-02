@@ -1,0 +1,48 @@
+
+###
+POST http://localhost:8080/student/takeBook
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MDg4MjcsImV4cCI6MTY1NDUxMjQyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.4fc8yq3j-m0gN9sEgiwDnu03Y_Z8PtGyLZ4l9dL0I8U
+
+{
+  "name" : "malibu"
+}
+
+###
+GET http://localhost:8080/student/takkenList
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MDg4MjcsImV4cCI6MTY1NDUxMjQyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.4fc8yq3j-m0gN9sEgiwDnu03Y_Z8PtGyLZ4l9dL0I8U
+
+
+
+###
+POST http://localhost:8080/student/returnBook
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MDg4MjcsImV4cCI6MTY1NDUxMjQyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.4fc8yq3j-m0gN9sEgiwDnu03Y_Z8PtGyLZ4l9dL0I8U
+
+{
+  "name" : "malibu"
+}
+
+###
+PUT http://localhost:8081/post/update/1
+Content-Type: application/json
+
+{
+  "title" : "dfsegdrfhtgjy",
+  "content" : "sfdgfhg"
+
+}
+
+
+
+###
+GET http://localhost:8080/student/takkenList
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MDg4MjcsImV4cCI6MTY1NDUxMjQyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.4fc8yq3j-m0gN9sEgiwDnu03Y_Z8PtGyLZ4l9dL0I8U
+
+
+###
+GET http://localhost:8080/student/List
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ1MDg4MjcsImV4cCI6MTY1NDUxMjQyNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoyfQ.4fc8yq3j-m0gN9sEgiwDnu03Y_Z8PtGyLZ4l9dL0I8U
